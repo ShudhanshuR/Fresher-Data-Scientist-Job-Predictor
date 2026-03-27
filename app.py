@@ -14,7 +14,19 @@ st.markdown("Enter your details to predict hiring chances")
 def load_model():
     return joblib.load("model.pkl")
 
-model, feature_names = load_model()
+model = joblib.load("model.pkl")
+
+# manually define features (same as training)
+feature_names = [
+    "python",
+    "sql",
+    "ml",
+    "projects",
+    "internship",
+    "algorithm",
+    "statistics",
+    "project_level"
+]
 
 # ================= INPUTS =================
 
