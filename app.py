@@ -25,7 +25,7 @@ feature_names = [
     "internship",
     "algorithm",
     "statistics",
-    "project_presentation"
+    "project_level"
 ]
 
 # ================= INPUTS =================
@@ -80,4 +80,4 @@ if st.button("🔍 Predict Hiring Chances"):
 
 # ---------------- FOOTER ----------------
 st.markdown("---")
-st.markdown("👨‍💻 Created by Shudhanshu Ranjan")
+st.markdown(f"Developed with ❤️ by **[Shudhanshu Ranjan](http://linkedin.com/in/shudhanshu-ranjan-b56b76239)**")
