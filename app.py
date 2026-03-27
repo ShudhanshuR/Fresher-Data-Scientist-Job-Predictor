@@ -25,7 +25,7 @@ feature_names = [
     "internship",
     "algorithm",
     "statistics",
-    "project_level"
+    "project_presentation"
 ]
 
 # ================= INPUTS =================
